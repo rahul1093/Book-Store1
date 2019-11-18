@@ -12,3 +12,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertFalse('Fiction'.islower())
         self.assertTrue('novel'.islower())
         self.assertFalse('Novel'.islower())
+
+
+if __name__ == '__main__':
+    unittest.main()
